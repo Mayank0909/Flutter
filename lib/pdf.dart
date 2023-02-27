@@ -15,32 +15,17 @@ class getStarted extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         backgroundColor: Color.fromARGB(255, 222, 173, 108),
-        body: 
-        Column(
-          children: <Widget>[
-            Row(
-            Container(
-          child: Center(
-            child: Image(
+        body: Column(
+          children: [
+            Image(
               image: AssetImage('assets/images/l1.jpeg'),
             ),
-          ),
-          ,child: ElevatedButton(
-                  child: Text('Press me!'),
-                  onPressed: () {
-                    print('Hello');
-                  },
-                ),
+            Container(
+              child: Text("mayank"),
+            )
+          ],
         ),
-          )
-        
-          ]
-          
-          
-        )
-        
       ),
     );
   }
 }
- 
