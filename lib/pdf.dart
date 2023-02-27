@@ -14,16 +14,17 @@ class getStarted extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Color.fromARGB(255, 222, 173, 108),
-        body: Column(
-          children: [
-            Image(
-              image: AssetImage('assets/images/l1.jpeg'),
-            ),
-            Container(
-              child: Text("mayank"),
-            )
-          ],
+        body: Center(
+          child: Column(
+            children: [
+              Image(
+                image: AssetImage('assets/images/l1.jpeg'),
+              ),
+              Container(
+                child: Text("mayank"),
+              )
+            ],
+          ),
         ),
       ),
     );
